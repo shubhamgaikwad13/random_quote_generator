@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-box {
+    border-radius: 3px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+}
+
+.quote-text {
+    text-align: center;
+    width: inherit;
+    height: auto;
+    font-weight: 500;
+    font-size: 1.75em;
+    opacity: 1;
+}
+
+.quote-author {
+    width: inherit;
+    height: auto;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+}
+
+.buttons {
+    text-align: right;
+
+}
+
+.buttons button {
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    outline: none;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
